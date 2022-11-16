@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+/*Colour Palletes
+#361a38
+#8b4f9a
+#aa73a3
+#f4bfe7
+#c087b9
+#cf9cb3
+#99776f
+#846451
+#cead93
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.tophead {
+	background-color: #f4bfe7;
+	color: black;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	font-family: "Amsterdam Two_ttf";
+}
+.headBG {
+	background-color: #FECFB1;
+	width: 100%;
+	
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+li {
+	list-style-type: none;
+}
+
+/*Images Settings or Code*/

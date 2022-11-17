@@ -116,18 +116,29 @@ p {
 /*Start This is the right image*/
 .images {
     width: 50%;
-    border="1em";
+    border: double 5px black;
 }
 
 .images1 {
     width: 100%;
-    border: double 5px black;
-    inline: right;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
-.img-responsive {
-    width: 20%;
-    inline: right;
+.images1 img {
+	width: 30%;
+	display: flex;
+	overflow: hidden;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border: double 5px black;
+}
+
+.images2 img {
+	width: 40%;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
 }
 
 /*End This is the right image*/
@@ -135,7 +146,7 @@ p {
 .column img {
 	margin-top: 12px;
 	border-radius: 40px;
-	border: double 5px white;
+	border: double 5px black;
 
 }
 
